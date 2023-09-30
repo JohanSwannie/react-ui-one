@@ -5,10 +5,10 @@ export default function Categories() {
   const categories = getCategories();
   return (
     <div className="container">
-      <h1>Session Categories</h1>
+      <h1>Laundromat Service Categories</h1>
 
       <ul className="categories">
-        {categories.map(cat => (
+        {categories.map((cat) => (
           <li key={cat.id}>
             <NavLink
               className={({ isActive }) =>
