@@ -33,12 +33,6 @@ const categories = [
   },
 ];
 
-export function getSession({ sessionId, catId }) {
-  return categories
-    .find(({ id }) => id === catId)
-    .services.find(({ id }) => id === sessionId);
-}
-
 export function getCategory(catId) {
   return categories.find(({ id }) => id === catId);
 }
