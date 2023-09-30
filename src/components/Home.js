@@ -11,20 +11,10 @@ export default function Home({ title }) {
 
       <h1>{title}</h1>
       <p>
-        This is a fictitious company and conference created by{" "}
-        <a
-          href="https://www.linkedin.com/feed/"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          LinkedIn Corporation, or its affiliates
-        </a>
-        , solely for the creation and development of educational training
-        materials. Any resemblance to real products or services is purely
-        coincidental. Information provided about the products or services is
-        also fictitious and should not be construed as representative of actual
-        products or services on the market in a similar product or service
-        category.
+        For that perfectly soft scent of freshness, ee are the right choice for
+        your cloths, where Spotless Clothes Are at Your Doorstep. Let our smooth
+        touch take the stress out of your day, giving you time back for the
+        important things.
       </p>
     </div>
   );
