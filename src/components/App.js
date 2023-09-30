@@ -4,6 +4,7 @@ import Home from "./Home";
 import About from "./About";
 import Categories from "./Categories";
 import Category from "./Category";
+import Toilet from "./Toilet";
 import Header from "./Header";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="categories" element={<Categories />}>
           <Route path=":catId" element={<Category />} />
         </Route>
+        <Route path="toilet" element={<Toilet />} />
         <Route
           path="*"
           element={<h1 className="not-found">Page Not Found</h1>}
