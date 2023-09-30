@@ -111,14 +111,14 @@ a.session-active {
 
 /* components & assets */
 .logo {
-  width: 220px;
+  width: 160px;
 }
 
 .img-feat {
-  width: 55vw;
-  height: 60vh;
+  width: 35vw;
+  height: 40vh;
   border-radius: 0.35em;
-  margin-bottom: 2em;
+  margin: 0 0 2em 6rem;
 }
 
 .categories {
