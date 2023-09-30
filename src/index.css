@@ -232,7 +232,7 @@ footer.container {
     margin-left: 1.25em;
   }
   .nav-active {
-    border-bottom: 2px solid currentColor;
+    border-bottom: 1.2px solid currentColor;
   }
   .categories {
     display: grid;
