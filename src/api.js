@@ -2,7 +2,7 @@ const categories = [
   {
     name: "Wash, Dry, Fluff & Fold",
     id: "wash-dry-fluff-fold-serv01",
-    sessions: [
+    services: [
       {
         name: "Wash & Dry Service",
         id: "wash-dry-category1",
@@ -18,7 +18,7 @@ const categories = [
   {
     name: "Lorem, ipsum dolor",
     id: "Lorem-ipsum-dolor-sit01",
-    sessions: [
+    services: [
       {
         name: "amet consectetur adipisicing",
         id: "owedkddie01",
@@ -36,7 +36,7 @@ const categories = [
 export function getSession({ sessionId, catId }) {
   return categories
     .find(({ id }) => id === catId)
-    .sessions.find(({ id }) => id === sessionId);
+    .services.find(({ id }) => id === sessionId);
 }
 
 export function getCategory(catId) {
