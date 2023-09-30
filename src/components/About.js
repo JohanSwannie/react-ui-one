@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="container">
-      <h1>Laundromat Services</h1>
+      <h1>Swannies Laundromat Services</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, atque
         aliquid cumque impedit eligendi iusto quibusdam suscipit repudiandae
