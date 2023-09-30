@@ -10,7 +10,7 @@ export default function Toilet() {
         className="toilet"
         src={toilet}
         alt="Swannies toilet"
-        width="500"
+        width="550"
         title="Swannie Laundromat | Toilet"
       />
     </div>
