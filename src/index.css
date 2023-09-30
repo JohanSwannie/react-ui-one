@@ -95,7 +95,7 @@ a.category-active {
   border-radius: 3px;
 }
 
-.session a {
+.service a {
   display: block;
   color: rgb(56, 56, 56);
   text-decoration: none;
@@ -104,8 +104,8 @@ a.category-active {
   border-radius: 3px;
 }
 
-.session a:hover,
-a.session-active {
+.service a:hover,
+a.service-active {
   color: #489b9a;
 }
 
@@ -125,20 +125,15 @@ a.session-active {
   margin-bottom: 1.5em;
 }
 
-ul.session-list {
+ul.service-list {
   display: flex;
 }
 
-.session + .session {
+.service + .service {
   margin-left: 1.5em;
 }
 
-.session-name {
-  font-size: 1.125rem;
-  font-weight: bold;
-}
-
-.session p {
+.service p {
   margin: 0;
 }
 
