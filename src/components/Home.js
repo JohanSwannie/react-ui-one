@@ -1,11 +1,11 @@
-import featImg from "../assets/img-main.jpg";
+import mainImg from "../assets/img-main.jpg";
 
 export default function Home({ title }) {
   return (
     <div className="container">
       <img
         className="img-feat"
-        src={featImg}
+        src={mainImg}
         alt="Red30 Tech conference attendees on a laptop"
       />
 
