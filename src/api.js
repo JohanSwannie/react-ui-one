@@ -15,6 +15,22 @@ const categories = [
       },
     ],
   },
+  {
+    name: "Lorem, ipsum dolor",
+    id: "Lorem-ipsum-dolor-sit01",
+    sessions: [
+      {
+        name: "amet consectetur adipisicing",
+        id: "owedkddie01",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, excepturi provident",
+      },
+      {
+        name: "bj3eu3eu3i3",
+        id: "oeekf0dkkd02",
+        desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio et sed enim id ab vitae dolorum consequuntur",
+      },
+    ],
+  },
 ];
 
 export function getSession({ sessionId, catId }) {
