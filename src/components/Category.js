@@ -9,10 +9,10 @@ export default function Category() {
     <>
       <h2>{category.name} Services</h2>
 
-      <ul className="session-list">
-        {category?.services.map((session) => (
-          <li className="session" key={session.id}>
-            <p>{session.desc}</p>
+      <ul className="service-list">
+        {category?.services.map((service) => (
+          <li className="service" key={service.id}>
+            <p>{service.desc}</p>
           </li>
         ))}
       </ul>
