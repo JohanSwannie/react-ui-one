@@ -1,20 +1,22 @@
 export default function About() {
   return (
     <div className="container">
-      <h1>Technology and Business Solutions</h1>
+      <h1>Laundromat Services</h1>
       <p>
-        Red30 Tech is the leading source of secure, fully customizable
-        technology and business solutions. We cater to those who need scalable
-        results that are sustainable for their company and the planet. With the
-        ever-evolving technology landscape, we want to be your go-to source for
-        business technology.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, atque
+        aliquid cumque impedit eligendi iusto quibusdam suscipit repudiandae
+        voluptatibus tenetur! Ducimus rem magnam quam et. Laudantium repellat
+        tempora delectus officia consectetur impedit rerum quod, velit
+        consequatur adipisci corrupti iusto minima dicta facilis excepturi
+        perspiciatis assumenda?
       </p>
       <p>
-        Our mission is to provide technology and business-driven solutions that
-        work seamlessly with your company, allowing your employees, partners,
-        and customers to engage in quality interactions that lead to scalable
-        growth. We consistently work towards being the premier provider of
-        environmentally sustainable technology solutions that connect the world.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+        quas autem saepe vero quidem. Maiores sapiente quam amet culpa eveniet,
+        debitis quisquam voluptatibus! Totam reprehenderit velit eveniet est
+        ullam? Hic dolore voluptates ea architecto distinctio expedita qui quasi
+        molestias eligendi laborum quas culpa perferendis quod beatae officiis
+        nemo, in repellendus nihil veniam repellat saepe rerum.
       </p>
     </div>
   );
