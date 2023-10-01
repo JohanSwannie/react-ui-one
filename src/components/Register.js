@@ -1,10 +1,13 @@
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Register() {
   const emailRef = useRef(null);
+  const navigate = useNavigate();
 
   function handleSubmit(event) {
     event.preventDefault();
+    navigate("/confirmation", { state: { email: emailRef.current.value } });
   }
 
   return (
@@ -18,7 +21,7 @@ export default function Register() {
       <form onSubmit={handleSubmit}>
         <label>
           Email:
-          <input type="text" name="email" ref={emailRef} />
+          <input type="text" name="email" required ref={emailRef} />
         </label>
         <input type="submit" value="Submit" />
       </form>
