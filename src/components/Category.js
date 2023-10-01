@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, NavLink, Outlet } from "react-router-dom";
 import { getCategory } from "../api";
 
 export default function Category() {
@@ -12,10 +12,16 @@ export default function Category() {
       <ul className="service-list">
         {category?.services.map((service) => (
           <li className="service" key={service.id}>
-            <p>{service.desc}</p>
+            <NavLink
+              className={({ isActive }) => (isActive ? "service-active" : null)}
+              to={service.id}
+            >
+              <p>{service.shortDescr}</p>
+            </NavLink>
           </li>
         ))}
       </ul>
+      <Outlet />
     </>
   );
 }
