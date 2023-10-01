@@ -5,6 +5,8 @@ import About from "./About";
 import Categories from "./Categories";
 import Category from "./Category";
 import Service from "./Service";
+import Register from "./Register";
+import Confirmation from "./Confirmation";
 import Toilet from "./Toilet";
 import Header from "./Header";
 
@@ -25,6 +27,8 @@ function App() {
           </Route>
           <Route index element={<h3>Select a category from above</h3>} />
         </Route>
+        <Route path="register" element={<Register />} />
+        <Route path="confirmation" element={<Confirmation />} />
         <Route path="toilet" element={<Toilet />} />
         <Route
           path="*"
