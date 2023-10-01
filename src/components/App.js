@@ -4,6 +4,7 @@ import Home from "./Home";
 import About from "./About";
 import Categories from "./Categories";
 import Category from "./Category";
+import Service from "./Service";
 import Toilet from "./Toilet";
 import Header from "./Header";
 
@@ -19,7 +20,10 @@ function App() {
         />
         <Route path="about" element={<About />} />
         <Route path="categories" element={<Categories />}>
-          <Route path=":catId" element={<Category />} />
+          <Route path=":catId" element={<Category />}>
+            <Route path=":serviceId" element={<Service />} />
+          </Route>
+          <Route index element={<h3>Select a category from above</h3>} />
         </Route>
         <Route path="toilet" element={<Toilet />} />
         <Route
