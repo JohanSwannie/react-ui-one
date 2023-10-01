@@ -14,6 +14,7 @@ export default function Confirmation() {
           <p>
             We have send a confirmation email to <strong>{state.email}</strong>
           </p>
+          <p>Welcome aboard!</p>
         </div>
       ) : (
         <div>
