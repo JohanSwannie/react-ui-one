@@ -21,7 +21,7 @@ export default function Register() {
       <form onSubmit={handleSubmit}>
         <label>
           Email:
-          <input type="text" name="email" required ref={emailRef} />
+          <input type="text" name="email" ref={emailRef} required />
         </label>
         <input type="submit" value="Submit" />
       </form>
