@@ -165,8 +165,45 @@ footer.container {
 
 .container {
   width: 90%;
-  max-width: 50rem;
+  max-width: 55rem;
   margin: 0 auto;
+}
+
+form {
+  font-size: 1.25rem;
+  margin: 2em auto;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 1.5em;
+}
+
+input {
+  font-size: 1em;
+  margin-top: 0.35em;
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline-color: #5dabaa;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.65em 0;
+  background-color: #75bebd;
+  border: none;
+}
+input[type="submit"]:hover {
+  background-color: #5dabaa;
 }
 
 @media (max-width: 767px) {
