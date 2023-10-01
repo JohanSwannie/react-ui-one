@@ -5,13 +5,23 @@ export default function Confirmation() {
 
   return (
     <div className="container">
-      <h1>
-        Thank You <strong>{state.name}</strong>!
-      </h1>
-      <p>You're now registered for Swannies Laundromat Services</p>
-      <p>
-        We have send a confirmation email to <strong>{state.email}</strong>
-      </p>
+      {state ? (
+        <div>
+          <h1>
+            Thank You <strong>{state.name}</strong>!
+          </h1>
+          <p>You're now registered for Swannies Laundromat Services</p>
+          <p>
+            We have send a confirmation email to <strong>{state.email}</strong>
+          </p>
+        </div>
+      ) : (
+        <div>
+          <h1>Thank You!</h1>
+          <p>You're now registered for Swannies Laundromat Services</p>
+          <p>Welcome aboard!</p>
+        </div>
+      )}
     </div>
   );
 }
