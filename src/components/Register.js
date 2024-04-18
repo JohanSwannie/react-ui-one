@@ -15,11 +15,11 @@ export default function Register() {
 
   return (
     <div className="container">
-      <h1>Register for Red30 Tech</h1>
+      <h1>Register for Swannies Laundromat Services</h1>
       <p>
-        Make sure to grab your spot for this year's conference! We love
-        technology and consistently work towards being the premier provider of
-        technology solutions and events that connect the world.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus saepe
+        quis expedita totam atque veritatis tempora doloremque numquam vitae
+        architecto?
       </p>
       <form onSubmit={handleSubmit}>
         <label>
